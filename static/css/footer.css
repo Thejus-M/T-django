@@ -1,0 +1,41 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00021b;
+    color: #fff500;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .connect-with-me {
+    font-size: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    color: #fff500;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .social-links {
+      flex-direction: column;
+    }
+    .social-links a {
+      margin: 10px 0;
+      display: block;
+    }
+  }
+  

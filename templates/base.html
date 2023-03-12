@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,18 +12,18 @@
         {% endblock title %}
             
     </title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
     <style>
-        body{
-            background-color: #000117;
-    color: #FFF500;
-    font-family: system-ui, sans-serif;
-    font-size: 1rem;
-        }
     </style>
 </head>
 <body>
     {% include 'navbar.html' %}
     <h1>hee</h1>
     Hi
+
+    {% include 'footer.html' %}
+<script src="{% static 'js/navbar.js' %}"></script>
 </body>
 </html>

@@ -1,1 +1,33 @@
-hewllpanv
+<nav>
+    <div class="navbar-logo">
+      <a href="#">T</a>
+    </div>
+    <div class="navbar-links">
+      <a 
+      {% if request.path == '/' %}
+        class="active"
+      {% endif %}
+      href="#">Home</a>
+      <a 
+      {% if request.path == '/projects' %}
+        class="active"
+      {% endif %}
+      href="#">Projects</a>
+      <a 
+      {% if request.path == '/skills' %}
+        class="active"
+      {% endif %}
+      href="#">Skills</a>
+      <a 
+      {% if request.path == '/link' %}
+        class="active"
+      {% endif %}
+      href="#">Links</a>
+    </div>
+    <div class="navbar-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+  
