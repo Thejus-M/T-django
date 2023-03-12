@@ -7,12 +7,12 @@
       {% if request.path == '/' %}
         class="active"
       {% endif %}
-      href="#">Home</a>
-      <a 
+      href="{% url 'home' %}">Home</a>
+      <a
       {% if request.path == '/projects' %}
         class="active"
       {% endif %}
-      href="#">Projects</a>
+      href="{% url 'projects' %}">Projects</a>
       <a 
       {% if request.path == '/skills' %}
         class="active"

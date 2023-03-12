@@ -1,29 +1,40 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        
+
         {% block title %}
-            Base
+        Base
         {% endblock title %}
-            
+
     </title>
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
     <link rel="stylesheet" href="{% static 'css/footer.css' %}">
-    <style>
-    </style>
+
+    {% block style %}
+
+    {% endblock style %}
+
 </head>
+
 <body>
     {% include 'navbar.html' %}
-    <h1>hee</h1>
-    Hi
-
+    
+    {% block content %}
+    
+<h1>hee</h1>
+Hi
+        
+    {% endblock content %}
+<br><br><br><br>
     {% include 'footer.html' %}
-<script src="{% static 'js/navbar.js' %}"></script>
+    <script src="{% static 'js/navbar.js' %}"></script>
 </body>
+
 </html>

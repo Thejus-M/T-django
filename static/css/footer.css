@@ -1,8 +1,10 @@
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  position: relative;
+  margin-top: -180px;
+  /* negative value of footer height */
+  height: 180px;
+  clear: both;
+    /* width: 100%; */
     background-color: #00021b;
     color: #fff500;
     text-align: center;
