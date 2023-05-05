@@ -13,6 +13,7 @@
         {% endblock title %}
 
     </title>
+    <link rel="stylesheet" href="{% static 'css/projects.css' %}">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
     <link rel="stylesheet" href="{% static 'css/footer.css' %}">
@@ -25,13 +26,15 @@
 
 <body>
     {% include 'navbar.html' %}
-    
-    {% block content %}
-    
-<h1>hee</h1>
-Hi
+    <div class="">
+        {% block content %}
         
-    {% endblock content %}
+    <h1>hee</h1>
+    Hi
+            
+        {% endblock content %}
+
+    </div>
 <br><br><br><br>
     {% include 'footer.html' %}
     <script src="{% static 'js/navbar.js' %}"></script>

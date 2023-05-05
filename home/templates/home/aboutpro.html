@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Project
+{% endblock title %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/aboutpro.css' %}">
+
+{% endblock style %}
+
+{% block content %}
+<div class="contents">
+
+
+
+
+
+    <br>
+
+    <div class="projects">
+        <div class="card fo3-col-6@md">
+
+            <!-- Slideshow container -->
+            <div class="box">
+                <br><br>
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.iX3seeCQ0Tq4ny5JkHK0dgHaEo%26pid%3DApi&f=1&ipt=b00420338828d847a9674dccff50d7f8dc5c1e1dbf25675ad5f47cf29c5a9569&ipo=images"
+                            style="width:100%">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.7Lm_uh-hSF3t3ZT9fvJxdAHaEK%26pid%3DApi&f=1&ipt=be2cb0f266cdb04ea112749120a6637fd5b4e9679092c5ad6cfb7bbc4e88dcab&ipo=images"
+                            style="width:100%">
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.OLDA3FdJUVvuQIrkyHfGOwHaEK%26pid%3DApi&f=1&ipt=8952187c5f3e54dac786d7915303453cfd231b5b25bdc7a0e91356785f8e43e4&ipo=images"
+                            style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                <br><br>
+            </div>
+            <!-- Slideshow container -->
+
+            <br><br>
+            <div class="box">
+                <div class="fo3-text-component">
+                    <br>
+
+                    <div class="fo3-container fo3-max-width-adaptive-lg">
+                        <div class="fo3-grid  fo3-gap-y-lg fo3-gap-lg@md">
+
+                            <h4 class="top-title">
+                                <span class="title">About</span>
+                            </h4>
+                            <p>
+                                Looking for a fast and easy way to shorten your URLs? Look no
+                                further than URLit, the cutting-edge web app that lets you shorten your in just
+                                a few powerful
+                                and versatile framework, URLit is designed to be simple, easy to use, and
+                                lightning fast, making
+                                it the perfect tool for anyone who needs to shorten long URLs and share them
+                                quickly and easily.
+                            </p>
+                            <p>Tags will be added</p>
+                            <h4>
+                                <a class=" btn-fx-2 bp3-text-sm bp3-padding-y-xs bp3-padding-x-sm"
+                                href="{{pro.website_url}}" aria-label="Slide">
+                                Github link
+                                </a>
+                                &nbsp;
+                                &nbsp;
+                                &nbsp;
+                                <a class="right--linkURL btn-fx-2 bp3-text-sm bp3-padding-y-xs bp3-padding-x-sm"
+                                href="{{pro.website_url}}" aria-label="Slide">
+                                <span>
+                                    <em><i>W</i><i>E</i><i>B</i><i>S</i><i>I</i><i>T</i><i>E</i><i>&nbsp;
+                                        </i><i>U</i><i>R</i><i>L</i></em>
+                                    <em><i>W</i><i>E</i><i>B</i><i>S</i><i>I</i><i>T</i><i>E</i><i>&nbsp;
+                                        </i><i>U</i><i>R</i><i>L</i></em>
+                                </span>
+                            </a> 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+
+
+            <br><br>
+            <div class="box">
+                <div class="fo3-text-component">
+                    <br>
+
+                    <div class="fo3-container fo3-max-width-adaptive-lg">
+                        <div class="fo3-grid  fo3-gap-y-lg fo3-gap-lg@md">
+
+                            <h4 class="top-title">
+                                <span class="title">Features </span>
+                            </h4>
+                            <p>
+                                [x] feature 1 <br>
+                                [x] feature 2<br>
+                                [] feature 3<br>
+                                [] feature 4<br>
+                                [] feature 5<br>
+                            </p>
+                            
+                            <h4 class="top-title">
+                                <span class="title">What I Learned From It!</span>
+                            </h4>
+                            <p>
+                                - Learned about coding and non coding rna <br>
+                                - learned that every element in a dna is important <br>
+                                - learn about the some important feature of  rna in depth <br>
+                                - learned and finished a course of ml <br>
+                                - learned a lot in ml <br>
+                                - learned how to use and create webapp using fastapi <br>
+                                - 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="{% static 'js/aboutpro.js' %}"></script>
+    {% endblock content %}

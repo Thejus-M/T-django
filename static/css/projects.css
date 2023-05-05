@@ -1274,6 +1274,14 @@ textarea {
 
 
 
+.code {
+  color: #FFF500;
+  text-decoration: none;
+  font-size: 20px;
+  opacity: 0.6;
+  font-family: 'La Belle Aurore', cursive;
+}
+
 
 
 

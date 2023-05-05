@@ -8,3 +8,9 @@ def home(request):
 def projects(request):
     model=Project.objects.all()
     return render (request,'home/projects.html',context={'project':model})
+
+def view_project(request):
+    return render (request,'home/aboutpro.html',context={})
+
+def skills(request):
+    return render(request, 'home/skills.html')

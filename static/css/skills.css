@@ -1,0 +1,281 @@
+/* Box and for responsive page */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .item {
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of responsive page */
+
+
+
+
+.icon{
+    width: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    width: 400px;
+font-family: monospace;
+    /* font-family: 'Roboto', sans-serif; */
+margin:0 auto;
+}
+.box{
+    border: #FFF500 dotted 1px;
+    border-radius: 30px;
+    padding: 30px;
+    max-width: 800px;
+}
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+        overflow-x:hidden;
+        
+}
+.skill > p {
+    font-size: 18px;
+    color: #FFF500;
+    margin: 0;
+}
+.skill:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    border-radius: 10px;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background:#FFF500;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+    width: 95%;
+        
+}
+.skill-bar span{
+    position: absolute;
+    /* border-top: 5px solid #f4392f; */
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.skill-bar {
+    position: relative;
+        
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+/* SKILL 2 */
+.skill2{
+    width: 85%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+/* SKILL 3 */
+.skill3{
+    width: 75%;
+}
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+    width: 65%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+    width: 80%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+/* SKILL 6 */
+.skill6{
+    width: 90%
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}/* SKILL 6 */
+.skill7{
+    width: 99%;
+}
+
+.skill7 .skill-count7 {
+    right: 0;
+}
+.skill8{
+    width: 91%;
+}
+
+.skill8 .skill-count8 {
+    right: 0;
+}
+
+.skill9{
+    width: 55%;
+}
+
+.skill9 .skill-count9 {
+    right: 0;
+}
+
+
+.skill10{
+    width: 60%;
+}
+
+.skill10 .skill-count10 {
+    right: 0;
+}
+
+
+.skill11{
+    width: 40%;
+}
+
+.skill11 .skill-count11 {
+    right: 0;
+}
+
+
+.skill12{
+    width: 20%;
+}
+
+.skill12 .skill-count12 {
+    right: 0;
+}
+
+
+
+
+
+
+
+/* GITHUB SOURCE STYLE  */
+.github-source{
+float:right;
+display:block;
+color:#fff;
+margin:0 20px;
+position: relative;
+z-index:999999;
+top:0;
+}
+.github-source i{
+font-size:50px;
+color:#000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading{
+    font-size: 4rem;
+}
+
+
+
+
+
+/* tree sturcture */
